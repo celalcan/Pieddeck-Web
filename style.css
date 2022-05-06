@@ -1,0 +1,767 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body{
+      background-color: #2B2B2B;
+      font-family: 'Raleway', sans-serif;
+  }
+/*=============== MENU ===============*/
+  .menu  {
+      display: flex;
+      justify-content: center;
+      height: 100vh;
+  }
+
+  .nav{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 34px;
+      max-width: 1351px;
+  }
+  .row{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+  }
+
+  .logo{
+      max-width:249px ;
+      max-height: 55px;
+  }
+
+  .menuler{
+      padding-left:540px;
+  }
+
+  .banner{
+      height: 100%;
+      width: 100%;
+      padding-top: 97px;
+     
+     
+  }
+  .banner_ic{
+    
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background: #222222;
+  }
+
+  .banner_sol{
+    width: 55%;
+   
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 50px;
+  }
+
+
+ 
+.banner_altbaslik{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+      color: #8C8F99;
+      font-weight: 100;
+      width: 75%;
+      font-size: 14px;
+
+      padding-bottom: 30px;
+}
+  .banner_baslik{
+    line-height:88px;
+    font-weight: 200;
+    font-size: 58px;
+    color: #FFF;
+  }
+  .banner_baslik_2{
+    line-height:88px;
+    font-weight: 800;
+    font-size: 58px;
+    padding-bottom: 44px;
+    color: #FFF;
+    
+    
+  }
+  .banner_baslik_2 span {
+    color: #119239;
+  }
+  .banner_baslik span{
+    color: #119239;
+  }
+  .banner_button{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 230px;
+height: 61px;
+          
+      background: #119239;
+      border-radius: 200px;  
+    font-family: 'Lato', sans-serif;
+      font-family: 'Quicksand', sans-serif;
+      font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 60px;
+      line-height: 60px;
+   
+  }
+
+
+  .banner_button a{
+text-decoration: none;
+color: #fff;
+opacity:80%;
+  }
+  .banner_sag{
+    width: 45%;
+    position: relative;
+      display: flex;
+      
+  }
+.banner_img_bg{
+  display: flex;
+  position:absolute;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  justify-content: flex-end;
+}
+  .banner_img_bg_ic{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color:#119239;
+    z-index: 6;
+  }
+  .banner_img{
+    position:absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+ .banner_img_ic{
+  position: absolute;
+  z-index: 7;
+     width: 451px;
+     height: 434px;
+ }
+
+  .menuler_ic{
+      padding-right: 54px;
+      text-decoration: none;
+      color: #fff;
+      font-family: 'Lato', sans-serif;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 33px;
+  }
+
+  .SSS{
+    padding-right: 0px;
+  }
+
+
+  .icon_renk{
+    mix-blend-mode: multiply;
+    fill:#119239;
+  }
+
+
+
+/* Section */
+
+
+.horizontal-section{
+  padding: 100px 0;
+  padding-bottom: 0;
+
+ /*  background-color: #a3a3a3 */
+}
+.bbb{
+  display: flex;
+  justify-content: center;
+}
+.sticky-wrapper {
+  position: sticky;
+  top: 100px;
+  width:800px;
+  /* background-color: #f3f3; */
+  overflow: hidden;
+  
+}
+
+.element-wrapper {
+  position: relative;
+  display: flex;
+
+  height: 450px;
+}
+
+.element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; 
+  width: 800px;
+  height: 400px;
+ /*  background-color: #fff; */
+ /*  background-color: purple; */
+  margin: 0 20px 0 0;
+  flex-shrink: 0;
+}
+
+.scroll_baslik{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 45px;
+padding-top: 28px;
+padding-bottom: 18px;
+color: #FFFFFF;
+}
+
+.scroll_yazi{
+ 
+  font-family: 'Lato', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+
+color: #9E9E9E;
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+ 
+}
+
+.icon_pad{
+  padding-right:5px;
+}
+
+/* Section End */
+
+
+/* Karo Deck Özellikleri */
+
+.ozellikler{
+  height:1024px;
+  width:100vw;
+  background: #F4F6F6;
+}
+
+.ozellikler_baslik{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.ozellikler_baslik_1{
+  padding-top: 35px;
+left: 488px;
+top: 34px;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: 0.13em;
+opacity: 0.6;
+color: #2B2B2B;
+}
+
+.ozellikler_1{
+  display: flex;
+ 
+  flex-direction: row;
+  padding-top: 183px;
+  max-height: 100%;
+}
+
+.ozellikler_1_1{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 252px;
+  align-items: center;
+  text-align: center;
+  
+  
+}
+.ozellikler_1_2{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 252px;
+  align-items: center;
+  text-align: center;
+  
+}
+.ozellikler_ic_baslik{
+  font-style: normal;
+font-weight: 700;
+font-size: 32px;
+
+color: rgba(0, 0, 0, 0.61);
+}
+.ozellikler_ic_yazi{
+  max-width: 246px;
+  font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 21px;
+padding-top: 20px;
+color: #A8ABB5;
+}
+
+.ozellikler_img{
+  width: 40%;
+ display: flex;
+justify-content: center;
+  max-height:286px;
+}
+
+.ozellikler_2{
+  display: flex;
+  flex-direction:row;
+  padding-top: 30px;
+  
+  
+}
+
+.ozellikler_2_1{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 93px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.ozellikler_2_2{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.ozellikler_3{
+  width: 100vw;
+  max-height: 402.05px;
+  display: flex;
+  padding-top: 109px;
+  justify-content: center;
+  align-items: center;
+ 
+  
+  
+}
+
+.ozellikler_3_btn{
+  padding-right: 20px;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  background:none;
+}
+
+.ozellikler_3_btn img{
+padding-bottom: 10px;
+}
+/* .ozellikler_3_btn_1 onc{
+  content: url('/images/çam_button_active.svg');
+} */
+.ozellikler_3_btn_3{
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  background:none;
+  
+}
+.ozellikler_3_btn_3 img{
+  padding-bottom: 10px;
+}
+/* Karo Deck Özellikleri End*/
+
+
+.divv{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.az{
+ 
+  z-index:4;
+ 
+/* 
+  left: 518px;
+  top: 370px; */
+  
+  font-family: 'Roslindale Text';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 125px;
+  text-align: center;
+  
+  color: #FFFFFF;
+  
+}
+
+.grandiet{
+  position: absolute;
+  width: 100%;
+height: 100%;
+
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.68) 0%, rgba(0, 0, 0, 0) 100%);
+
+z-index: 2;
+}
+.azz{
+ 
+ 
+  object-fit: cover; object-position: 100% 0;
+  z-index:1;
+ 
+}
+
+.video_yazi{
+  color: #119239;
+}
+.video_blur{
+  position: absolute;
+  width: 100%;
+height: 350px;
+
+z-index:3;
+background: rgba(196, 196, 196, 0.1);
+backdrop-filter: blur(25px);
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 4px;
+}
+
+
+
+
+/* TEKLİF CARD */
+.teklifler{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.teklif_baslik{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ margin-bottom: 100px;
+ margin-top: 150px;
+ 
+
+}
+
+.t_baslik{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  color: #FFFFFF;
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.t_baslik_backg{
+
+ 
+  position:absolute;
+  
+}
+.t_baslik_backg_{
+  width:800px;
+  height:800px;
+  z-index: 2;
+opacity: 0.14;
+}
+.teklif_card {
+  width: 100%;
+  height: 740px;
+  background-color: #2B2B2B;
+  display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+.teklif_cards{
+
+width: 379px;
+height: 468px;
+left: 114px;
+margin-right: 37px;
+display: flex;
+      flex-direction: column;
+      align-items: center;
+background: #222222;
+border: 4px solid rgba(134, 134, 134, 0.19);
+
+border-radius: 20px;
+}
+
+
+.teklif_card_3{
+  margin-right: 0px;
+}
+
+
+.gorsel{
+max-width: 217px;
+max-height: 181px;
+margin-top: 52px;
+border-radius: 20px;
+}
+
+
+.urun_ad_sabit{
+font-family: 'Lato', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+opacity:70%;
+margin-top: 40px;
+color: #B4B4B4;
+}
+
+
+.urun_ad{
+font-family: 'Lato', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+color: #FFFFFF;
+}
+
+.teklif_button {
+  width: 197px;
+height: 52px;
+left: 205px;
+top: 499px;
+margin-top: 40px;
+display: flex;
+justify-content:center;
+align-items:center;
+background: #119239;
+border-radius: 34px;
+
+font-family: 'Lato', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+
+border: none;
+cursor: pointer;
+}
+
+.teklif_button:hover{
+  color: #0A5622;
+}
+
+
+
+
+
+/* Fidan Bağış */
+
+.fidan_bagis{
+  width: 100%;
+  height:536px auto;
+  background-color: #119239;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.fidan_bagis_bilgi{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  
+}
+
+.bagis_yazi_2{
+  font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: #fff;
+}
+.fidan_bagis_bilgi_yazi{
+  margin-left: 82px;
+  margin-top: 52px;
+  margin-bottom: 136px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #0A5622;
+  opacity: 0.9;
+}
+.fidan_bagis_bilgi_baslik{
+  font-family: 'Roslindale Text';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+  color: #FFFFFF;
+  margin-top: 136px;
+  margin-left: 82px;
+}
+.birm{
+  color: #0A5622;
+}
+
+.fidan_bagis_icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+.fidan_bagis_icon_ic{
+  max-width: 350px;
+  max-height:251.44px;
+}
+/* Temizlik Bakım */
+.bakim{
+width: 100%;
+height: 636px;
+background: #F4F6F6;  
+display: flex;
+flex-direction: column;
+}
+.bakim_detay{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  margin: 50px;
+}
+.bakim_baslik{
+width: 100%;
+height: 118px;
+display: flex;
+padding-top: 20px;
+align-items: center;
+justify-content: center;
+flex-direction:column;
+}
+
+.bakim_baslik_1{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 0.13em;
+  font-family: 'Inter', sans-serif;
+color: #455067;
+margin-top: 26px;
+}
+
+.bakim_baslik_2{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+font-family: 'Inter', sans-serif;
+  color: #A8ABB5;
+}
+.bakim_1{
+  padding-top: 25px;
+  width: 298px;
+  padding-right: 50px;
+  display:flex;
+align-items: center;
+  flex-direction: column;
+}
+
+.bakim_1 img{
+  max-width: 87px;
+  max-height: 87px;
+}
+.bakim_b_1{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #455067;
+padding-top: 34px;
+padding-bottom: 14px;
+}
+
+.bakim_y_1{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: justify;
+  color: #8C8F99;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #11171a;
+  border-radius: 10px;
+}
+  @media screen and (max-width: 1024px){
+
+    .menuler{
+        padding-left:10px;
+    }
+
+  }
