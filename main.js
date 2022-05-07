@@ -82,6 +82,8 @@ function before1(){
   .src="/images/çam_button_active.svg";
   document.getElementById('myImage2')
   .src="/images/İroko_button.svg ";
+  document.getElementById('myImage3')
+  .src="/images/Cam_Karo_deck (1).png";
   document.getElementById('message')
   .innerHTML="Hii! GeeksforGeeks people";
 }
@@ -90,7 +92,12 @@ function before2(){
   .src="/images/iroko_button_active.svg ";
   document.getElementById('myImage1')
   .src="/images/Çam_button.svg";
+  document.getElementById('myImage3')
+  .src="/images/İroko_Karo_deck.png";
   document.getElementById('message')
   .innerHTML="Hii! GeeksforGeeks people";
 }
+
+
+
 
