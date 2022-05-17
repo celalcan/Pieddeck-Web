@@ -27,7 +27,40 @@ window.onscroll = function(){
     
   }
 
+ /* scroll-trigger-product */
+
+if(triggeractive==false)
+{
+ console.log(triggeractive);
+if(scrollTop >3400 & scrollTop <3800 & scrollkontrol==1 ){
+ scrollkontrol+=1;
+ sctriggervalue=0;
+ opacity=0;
+ kayma=0;
+ kaymaf();
+ MyFadeFunction();
+}
+
+if(scrollTop >700 & scrollTop <999 & scrollkontrol==2 ){
+ scrollkontrol+=1;
+ sctriggervalue=1;
+ console.log("filan");
+ opacity=0;
+ kayma=0;
+ kaymaf();
+ MyFadeFunction();
  
+}
+if(scrollTop >1000  & scrollkontrol==3 ){
+ scrollkontrol+=1;
+ sctriggervalue=2;
+ opacity=0;
+ kayma=0;
+ kaymaf();
+ MyFadeFunction();
+ 
+}
+}
   
 }
 
@@ -80,27 +113,56 @@ document.addEventListener("DOMContentLoaded", function() {
 function before1(){
   document.getElementById("ozellikler_2_marign").style.paddingTop= "0px" ;
   document.getElementById('myImage1')
-  .src="/images/çam_button_active.svg";
+  .src="./images/çam_button_active.svg";
   document.getElementById('myImage2')
-  .src="/images/İroko_button.svg ";
+  .src="./images/İroko_button.svg ";
   document.getElementById('myImage3')
-  .src="/images/Cam_Karo_deck (1).png";
+  .src="./images/Cam_Karo_deck (1).png";
   document.getElementById('message')
   .innerHTML="Hii! GeeksforGeeks people";
  
 }
 function before2(){
   document.getElementById('myImage2')
-  .src="/images/iroko_button_active.svg ";
+  .src="./images/iroko_button_active.svg ";
   document.getElementById('myImage1')
-  .src="/images/Çam_button.svg";
+  .src="./images/Çam_button.svg";
   document.getElementById('myImage3')
-  .src="/images/İroko_Karo_deck.png";
+  .src="./images/İroko_Karo_deck.png";
   document.getElementById("ozellikler_2_marign").style.paddingTop= "70px" ;
   document.getElementById('message')
   .innerHTML="Hii! GeeksforGeeks people";
 }
 
 
+ /* scroll-trigger-product */
 
 
+let opacity = 0;
+let scrollkontrol=1;
+let kayma=0;
+let sctrigger=document.querySelectorAll(".trigger");
+let sctriggervalue=0;
+let triggeractive=false;
+
+console.log(sctrigger);
+function MyFadeFunction(/* sctriggervalue */) {
+    triggeractive=true;
+    if (opacity<1 ) {
+       opacity += .1;
+       setTimeout(function(){MyFadeFunction()},100);
+    }
+    else if(opacity>1){
+        triggeractive=false;
+    }  
+        sctrigger[sctriggervalue].style.opacity = opacity;
+ }
+
+
+function kaymaf(){
+    kayma+=1;
+    if(kayma<100){
+    setTimeout(function(){kaymaf()},8);       
+     } 
+    sctrigger[sctriggervalue].style.transform = "translateY(-"+kayma+"px)";
+}
