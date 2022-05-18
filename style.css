@@ -293,6 +293,7 @@ color: #2B2B2B;
   flex-direction: row;
   padding-top: 183px;
   max-height: 100%;
+  opacity: 0;
 }
 
 .ozellikler_1_1{
