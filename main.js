@@ -32,7 +32,7 @@ window.onscroll = function(){
 if(triggeractive==false)
 {
  console.log(triggeractive);
-if(scrollTop >3400 & scrollTop <3800 & scrollkontrol==1 ){
+if(scrollTop >4000 & scrollTop <4600 & scrollkontrol==1 ){
  scrollkontrol+=1;
  sctriggervalue=0;
  opacity=0;
@@ -41,7 +41,7 @@ if(scrollTop >3400 & scrollTop <3800 & scrollkontrol==1 ){
  MyFadeFunction();
 }
 
-if(scrollTop >3800 & scrollTop <4200 & scrollkontrol==2 ){
+if(scrollTop >4600 & scrollTop <5200 & scrollkontrol==2 ){
  scrollkontrol+=1;
  sctriggervalue=1;
  console.log("filan");

@@ -271,6 +271,7 @@ color: #9E9E9E;
   width:100vw;
   position: sticky;
   top: 0;
+ margin-bottom: 40px;
 }
 .ozellikler_sticky{
  
@@ -289,12 +290,12 @@ color: #9E9E9E;
 
 font-family: 'Inter', sans-serif;
 font-style: normal;
-font-weight: 700;
+font-weight: 300;
 font-size: 40px;
 line-height: 48px;
 letter-spacing: 0.13em;
 opacity: 0.6;
-color: #fff;
+color: rgb(189, 189, 189);
 
 }
 
@@ -302,10 +303,10 @@ color: #fff;
   display: flex;
  
   flex-direction: row;
-  padding-top: 183px;
+  padding-top: 84px;
   max-height: 100%;
   opacity: 0;
-  
+ 
 }
 
 .ozellikler_1_1{
@@ -315,8 +316,8 @@ color: #fff;
   margin-left: 252px;
   align-items: center;
   text-align: center;
-  
-  
+  margin-top: 100px;
+  /* padding-top: 500px; */
 }
 .ozellikler_1_2{
   display: flex;
@@ -325,32 +326,38 @@ color: #fff;
   margin-right: 252px;
   align-items: center;
   text-align: center;
-  
+  margin-top: 100px;
 }
 .ozellikler_ic_baslik{
   font-style: normal;
-font-weight: 700;
-font-size: 32px;
+font-weight: 600;
+font-size: 24px;
 
-color: #FFF;
+color: rgb(237, 237, 237);
 }
 .ozellikler_ic_yazi{
   max-width: 246px;
   font-style: normal;
-font-weight: 500;
-font-size: 17px;
+font-weight: 400;
+font-size: 12px;
+letter-spacing: 0.1em;
 line-height: 21px;
 padding-top: 20px;
-color: #A8ABB5;
+color: #9597a0;
 }
 
 .ozellikler_img{
-  width: 40%;
+  width: 30%;
  display: flex;
 justify-content: center;
+align-items: flex-start;
   max-height:286px;
+  transform: translateY(-60px);
 }
-
+.ozellikler_img_1{
+  max-width: 100%;
+    height: auto;  
+}
 .ozellikler_2{
   display: flex;
   flex-direction:row;
@@ -359,7 +366,7 @@ justify-content: center;
 }
 
 .ozellikler_2_1{
-  width: 30%;
+  width: 35%;
   display: flex;
   flex-direction: column;
   padding-left: 93px;
@@ -367,25 +374,28 @@ justify-content: center;
   text-align: center;
   justify-content: center;
   opacity: 0;
+  margin-top: 100px;
+ 
 }
 .ozellikler_2_2{
-  width: 30%;
+  width: 35%;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   justify-content: center;
   opacity: 0;
+  margin-top: 100px;
 }
 
 .ozellikler_3{
   width: 100vw;
   max-height: 402.05px;
   display: flex;
-  padding-top: 109px;
+  padding-top: 29px;
   justify-content: center;
   align-items: center;
- 
+
   
   
 }
