@@ -41,7 +41,7 @@ if(scrollTop >3400 & scrollTop <3800 & scrollkontrol==1 ){
  MyFadeFunction();
 }
 
-if(scrollTop >700 & scrollTop <999 & scrollkontrol==2 ){
+if(scrollTop >3800 & scrollTop <4200 & scrollkontrol==2 ){
  scrollkontrol+=1;
  sctriggervalue=1;
  console.log("filan");
@@ -49,17 +49,18 @@ if(scrollTop >700 & scrollTop <999 & scrollkontrol==2 ){
  kayma=0;
  kaymaf();
  MyFadeFunction();
- 
+
 }
-if(scrollTop >1000  & scrollkontrol==3 ){
- scrollkontrol+=1;
- sctriggervalue=2;
- opacity=0;
- kayma=0;
- kaymaf();
- MyFadeFunction();
- 
-}
+if(opacity>1 & scrollkontrol==3 ){
+  
+  scrollkontrol+=1;
+  sctriggervalue=2;
+  console.log("filan");
+  opacity=0;
+  kayma=0;
+  kaymaf();
+  MyFadeFunction();
+ }
 }
   
 }
